@@ -1,1 +1,3 @@
-# BOJ_Algorithm_java
+# 백준 알고리즘
+
+### Java를 활용한 코딩테스트 공부
