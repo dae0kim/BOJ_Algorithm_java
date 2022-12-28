@@ -15,13 +15,7 @@ public class Main {
 		if(n==0 || n==1) {
 			return 1;
 		}else {
-			int answer = n*(n-1);
-			n = n-2;
-			while(n>=1) {
-				answer = answer*n;
-				n--;
-			}
-			return answer;
+			return n*fct(n-1);
 		}
 	}
 }
